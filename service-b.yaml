@@ -16,9 +16,5 @@ spring:
           binder: kafka
           destination: cloudEX
 management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream, info, health
   security: 
     enabled: false
